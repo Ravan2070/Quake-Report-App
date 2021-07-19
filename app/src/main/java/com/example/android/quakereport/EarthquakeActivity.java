@@ -46,14 +46,14 @@ public class EarthquakeActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Finding the earthquake that was clicked on
-                /*EarthQuake currentEarthquake = adapter.getItem(position);
+                EarthQuake currentEarthquake = adapter.getItem(position);
 
                 Uri earthquakeUri = Uri.parse(currentEarthquake.getUrl());
 
                 // Intent.ACTION_VIEW is used to open the browser
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, earthquakeUri);
 
-                startActivity(websiteIntent);*/
+                startActivity(websiteIntent);
             }
         });
     }
